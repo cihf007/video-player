@@ -1,0 +1,24 @@
+.button{
+    inline-size: 32px; /* (Para poner ancho; Tamaño de la linea donde va escrito el documento). Define el tamaño horizontal o vertical del bloque de un elemento, dependiendo de su modo de escritura. Corresponde a la propiedad width o height , dependiendo del valor del writing-mode de escritura. */
+    block-size: 32px; /*(Si quiero hacer un alto). Tamaño de mi bloque o ese eje en vertical*/
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.button:active{
+    transform: scale(.9);
+}
+#play{
+    background-image: url('../images/play.svg');
+}
+#pause{
+    background-image: url('../images/pause.svg');
+}
+#backward{
+    background-image: url('../images/-10.svg');
+}
+#forward{
+    background-image: url('../images/+10.svg');
+}
